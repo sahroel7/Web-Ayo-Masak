@@ -85,11 +85,27 @@ const products = [
             "Bumbu halus",
             "Tauge",
             "Bihun",
-            "Daun bawang"
+            "Daun bawang",
+            "Telur rebus",
+            "Kecap manis",
+            "Garam",
+            "Merica",
+            "Minyak goreng"
         ],
         "steps": [
-            "Rebus ayam dengan bumbu",
-            "Sajikan dengan pelengkap"
+            "Rebus ayam dengan air bersih hingga mendidih.",
+            "Pisahkan daging ayam dari tulangnya.",
+            "Cincang bawang merah, bawang putih, dan jahe.",
+            "Panaskan minyak dalam wajan.",
+            "Tumis bumbu cincangan hingga harum.",
+            "Masukkan bumbu ke dalam kaldu ayam.",
+            "Tambahkan wortel dan kentang yang sudah dipotong.",
+            "Masak hingga sayuran setengah matang.",
+            "Masukkan kembali suwiran ayam.",
+            "Bumbui dengan garam, merica, dan kecap manis.",
+            "Masak hingga sayuran matang sempurna.",
+            "Siapkan telur rebus yang sudah dikupas.",
+            "Sajikan soto panas-panas dengan taburan seledri dan daun bawang."
         ]
     },
     {
@@ -148,10 +164,14 @@ const products = [
             "Pelengkap: bawang goreng, timun, telur dadar"
         ],
         "steps": [
-            "Cuci beras hingga bersih",
-            "Masak beras dengan santan dan bumbu",
-            "Kukus hingga matang",
-            "Sajikan dengan pelengkap"
+            "Cuci beras hingga bersih.",
+            "Tambahkan santan, daun salam, serai, dan daun jeruk.",
+            "Kukus beras dengan bumbu hingga matang.",
+            "Goreng tempe hingga kecokelatan.",
+            "Buat telur mata sapi.",
+            "Keluarkan nasi dari kukusan.",
+            "Sajikan nasi dengan lauk tempe dan telur.",
+            "Tambahkan kecap manis sebagai pelengkap."
         ]
     },
     {
@@ -217,16 +237,23 @@ const products = [
             "Labu siam",
             "Jagung manis",
             "Melinjo",
+            "Gambas",
             "Asam jawa",
             "Daun melinjo",
             "Bumbu halus",
             "Garam dan gula"
         ],
         "steps": [
-            "Didihkan air",
-            "Masukkan bumbu halus",
-            "Masukkan sayuran sesuai tingkat kematangan",
-            "Tambahkan asam jawa"
+            "Potong semua sayuran menjadi potongan sedang.",
+            "Didihkan air dalam panci.",
+            "Masukkan jagung muda terlebih dahulu.",
+            "Tambahkan kacang panjang dan sayuran lainnya.",
+            "Larutkan asam jawa dalam air.",
+            "Tuangkan larutan asam ke dalam panci.",
+            "Bumbui dengan garam dan gula.",
+            "Masak hingga sayuran matang namun tidak lembek.",
+            "Tambahkan cabai rawit utuh.",
+            "Angkat dan sajikan hangat."
         ]
     },
     {
@@ -325,6 +352,144 @@ const products = [
             "Isi kulit lumpia dengan adonan",
             "Lipat rapi dan goreng hingga kecoklatan",
             "Sajikan dengan saus dan cabe rawit"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Perkedel Kentang",
+        "description": "Perkedel kentang goreng renyah khas Indonesia.",
+        "image": "https://dailycookingquest.com/img/2019/10/perkedel-kentang-indonesian-potato-fritters-5_huaf70c72bf1bf418182d0bccb8c05199f_227376_1200x1800_resize_q50_h2_lanczos.webp",
+        "category": "Camilan",
+        "difficulty": "easy",
+        "time": "quick",
+        "ingredients": [
+        "Kentang",
+        "Telur",
+        "Bawang putih",
+        "Daun bawang",
+        "Merica",
+        "Garam",
+        "Tepung terigu",
+        "Minyak goreng"
+        ],
+        "steps": [
+            "Rebus kentang hingga benar-benar empuk.",
+            "Haluskan kentang yang sudah direbus.",
+            "Cincang bawang putih dan daun bawang.",
+            "Campurkan kentang halus dengan bumbu.",
+            "Tambahkan telur dan aduk rata.",
+            "Bentuk adonan menjadi bulatan-bulatan kecil.",
+            "Gulingkan bulatan ke tepung terigu.",
+            "Panaskan minyak dalam wajan.",
+            "Goreng perkedel"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Opor Ayam",
+        "description": "Hidangan ayam berkuah santan khas Lebaran.",
+        "image": "https://imgs.search.brave.com/glKWqJjeNggcIBkBqgbGE1L3Az5_cCftWtDVycM2gr0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zb3l1/bW15cmVjaXBlcy5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMTAvT3Bvci1B/eWFtLS5qcGcud2Vi/cA",
+        "category": "Hidangan Utama",
+        "difficulty": "medium",
+        "time": "long",
+        "ingredients": [
+        "Ayam",
+        "Santan",
+        "Bawang merah",
+        "Bawang putih",
+        "Jahe",
+        "Kemiri",
+        "Kunyit",
+        "Daun salam",
+        "Serai",
+        "Garam"
+        ],
+        "steps": [
+            "Potong ayam menjadi beberapa bagian.",
+            "Haluskan bawang merah, bawang putih, jahe, kemiri, dan kunyit.",
+            "Panaskan minyak dalam panci.",
+            "Tumis bumbu halus hingga harum.",
+            "Masukkan ayam dan aduk rata.",
+            "Tambahkan daun salam dan serai.",
+            "Tuangkan santan perlahan-lahan.",
+            "Masak dengan api kecil sambil sesekali diaduk.",
+            "Tambahkan garam sesuai selera.",
+            "Masak hingga kuah mengental dan ayam matang.",
+            "Angkat dan sajikan dengan nasi putih."
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Gado-Gado",
+        "description": "Salad sayur Indonesia dengan saus kacang yang gurih.",
+        "image": "https://imgs.search.brave.com/EYVvFWbNacVQ7XztCdKrQ7pfkxVI_FLmsz2UsN9YRRA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGV1a2VyZWNlcHRl/bi5ubC9hcHAvdXBs/b2Fkcy8yMDIyLzA1/L2dhZG8tZ2Fkby1y/ZWNlcHQtdi5qcGc",
+        "category": "Salad",
+        "difficulty": "easy",
+        "time": "quick",
+        "ingredients": [
+        "Kubis",
+        "Wortel",
+        "Kacang panjang",
+        "Kentang",
+        "Mentimun",
+        "Tahu",
+        "Tempe",
+        "Telur rebus",
+        "Kacang tanah",
+        "Bawang putih",
+        "Cabai merah",
+        "Garam",
+        "Kecap manis"
+        ],
+        "steps": [
+            "Rebus semua sayuran hingga matang namun renyah.",
+            "Goreng tahu dan tempe hingga kecokelatan.",
+            "Kupas telur rebus.",
+            "Haluskan kacang tanah.",
+            "Cincang bawang putih dan cabai merah.",
+            "Campur kacang tanah yang dihaluskan dengan air.",
+            "Tambahkan bawang putih, cabai, garam, dan kecap manis.",
+            "Aduk bumbu sambil dipanaskan hingga mengental.",
+            "Susun sayuran, tahu, tempe, dan telur di piring.",
+            "Siram dengan saus kacang panas.",
+            "Tambahkan kecap manis tambahan sesuai selera."
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Bakso",
+        "description": "Bola daging kenyal disajikan dalam kuah hangat.",
+        "image": "https://imgs.search.brave.com/M5v_gitS-e5ewjbZ9IRFSMx1KpDnqQhaNpBVdV4P-IA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8yLzI4L0Jh/a3NvX21pX2JpaHVu/LmpwZy81MTJweC1C/YWtzb19taV9iaWh1/bi5qcGc",
+        "category": "Sup",
+        "difficulty": "medium",
+        "time": "medium",
+        "ingredients": [
+        "Daging sapi giling",
+        "Tepung tapioka",
+        "Telur",
+        "Es batu",
+        "Bawang putih",
+        "Garam",
+        "Merica",
+        "Mie",
+        "Tahu",
+        "Sawi",
+        "Daun bawang"
+        ],
+        "steps": [
+            "Campurkan daging sapi giling dengan es batu.",
+            "Tambahkan tepung tapioka, telur, bawang putih, garam, dan merica.",
+            "Aduk adonan hingga benar-benar rata dan kalis.",
+            "Bentuk adonan menjadi bola-bola kecil.",
+            "Didihkan air dalam panci besar.",
+            "Masukkan bola daging ke dalam air mendidih.",
+            "Rebus hingga bakso mengapung dan matang.",
+            "Angkat dan tiriskan bakso.",
+            "Rebus mie dan sayuran.",
+            "Susun mie, tahu, dan sayuran dalam mangkuk.",
+            "Letakkan bakso di atas.",
+            "Siram dengan kuah panas.",
+            "Taburi daun bawang cincang."
         ]
     }
 ];
